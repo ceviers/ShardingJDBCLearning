@@ -62,4 +62,10 @@ public class CRUDTest {
         var paragraphs = paragraphService.getByArticleId(2);
         paragraphs.forEach(System.out::println);
     }
+
+    @Test
+    public void geParagraphByArticleId5() {
+        var paragraphs = paragraphService.getByArticleId(2);
+        paragraphs.forEach(System.out::println);
+    }
 }
